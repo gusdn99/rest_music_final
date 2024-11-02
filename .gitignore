@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/windows,java,maven,eclipse,intellij,visualstudiocode
-# Edit at https://www.toptal.com/developers/gitignore?templates=windows,java,maven,eclipse,intellij,visualstudiocode
+# Created by https://www.toptal.com/developers/gitignore/api/windows,java,gradle,eclipse,intellij,visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=windows,java,gradle,eclipse,intellij,visualstudiocode
 
 ### Application Specific ###
 # 설정 파일
@@ -27,11 +27,11 @@
 **/local.properties    
 **/.settings/          
 **/.loadpath           
-**/.recommenders/ 
-     
+**/.recommenders/      
+
 # 외부 도구 빌더
-**/.externalToolBuilders/ 
-   
+**/.externalToolBuilders/    
+
 # 이클립스 실행 설정
 **/*.launch
 
@@ -124,21 +124,25 @@
 **/hs_err_pid*
 **/replay_pid*
 
-### Maven ###
-**/target/
-**/pom.xml.tag
-**/pom.xml.releaseBackup
-**/pom.xml.versionsBackup
-**/pom.xml.next
-**/release.properties
-**/dependency-reduced-pom.xml
-**/buildNumber.properties
-**/.mvn/timing.properties
+### Gradle ###
+# Gradle 빌드 디렉토리
+**/.gradle
+**/build/
+!**/src/**/build/
 
-# Maven wrapper JAR
-!**/.mvn/wrapper/maven-wrapper.jar
+# Gradle GUI 설정
+**/gradle-app.setting
 
-# Eclipse m2e 생성 파일
+# Gradle wrapper JAR 파일 예외 처리
+!**/gradle-wrapper.jar
+
+# Gradle wrapper 속성 파일 예외 처리
+!**/gradle-wrapper.properties
+
+# Gradle 작업 이름 캐시
+**/.gradletasknamecache
+
+# Eclipse Gradle 플러그인 생성 파일
 **/.project
 **/.classpath
 
@@ -181,3 +185,6 @@
 
 # 윈도우 바로가기
 **/*.lnk
+
+# Java heap dump
+**/*.hprof
