@@ -1,0 +1,183 @@
+# Created by https://www.toptal.com/developers/gitignore/api/windows,java,maven,eclipse,intellij,visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=windows,java,maven,eclipse,intellij,visualstudiocode
+
+### Application Specific ###
+# 설정 파일
+**/application.properties
+**/src/main/resources/application.properties
+
+# Static 리소스 파일들 (js, css 제외)
+**/src/main/resources/static/artist/
+**/src/main/resources/static/data/
+**/src/main/resources/static/images/
+**/src/main/resources/static/lyrics/
+**/src/main/resources/static/songs/
+
+### Eclipse ###
+# 이클립스 메타데이터
+**/.metadata/
+
+# 이클립스 기본 디렉토리/파일
+**/bin/                
+**/tmp/                
+**/*.tmp               
+**/*.bak               
+**/*.swp               
+**/*~.nib              
+**/local.properties    
+**/.settings/          
+**/.loadpath           
+**/.recommenders/ 
+     
+# 외부 도구 빌더
+**/.externalToolBuilders/ 
+   
+# 이클립스 실행 설정
+**/*.launch
+
+# PyDev 설정
+**/*.pydevproject
+
+# CDT 설정
+**/.cproject
+**/.autotools
+
+# Java 어노테이션 프로세서
+**/.factorypath
+
+# PDT 설정
+**/.buildpath
+
+# sbteclipse plugin
+**/.target
+
+# Tern plugin
+**/.tern-project
+
+# TeXlipse plugin
+**/.texlipse
+
+# STS (Spring Tool Suite)
+**/.springBeans
+**/.sts4-cache/
+
+# 어노테이션 처리 관련
+**/.apt_generated/
+**/.apt_generated_test/
+
+# Scala IDE 설정
+**/.cache-main
+**/.scala_dependencies
+**/.worksheet
+
+### IntelliJ ###
+# IntelliJ IDEA 설정 파일
+**/.idea/
+**/.idea/**/workspace.xml
+**/.idea/**/tasks.xml
+**/.idea/**/usage.statistics.xml
+**/.idea/**/dictionaries
+**/.idea/**/shelf
+**/.idea/**/aws.xml
+**/.idea/**/contentModel.xml
+**/.idea/**/dataSources/
+**/.idea/**/dataSources.ids
+**/.idea/**/dataSources.local.xml
+**/.idea/**/sqlDataSources.xml
+**/.idea/**/dynamic.xml
+**/.idea/**/uiDesigner.xml
+**/.idea/**/dbnavigator.xml
+**/.idea/**/gradle.xml
+**/.idea/**/libraries
+
+# IntelliJ 출력 디렉토리
+**/out/
+
+# IntelliJ 파일
+**/*.iws
+**/*.iml
+**/*.ipr
+
+### Java ###
+# 컴파일된 클래스 파일
+**/*.class
+
+# 로그 파일
+**/*.log
+
+# BlueJ 파일
+**/*.ctxt
+
+# Mobile Tools for Java (J2ME)
+**/.mtj.tmp/
+
+# 패키지 파일
+**/*.jar
+**/*.war
+**/*.nar
+**/*.ear
+**/*.zip
+**/*.tar.gz
+**/*.rar
+
+# 가상머신 크래시 로그
+**/hs_err_pid*
+**/replay_pid*
+
+### Maven ###
+**/target/
+**/pom.xml.tag
+**/pom.xml.releaseBackup
+**/pom.xml.versionsBackup
+**/pom.xml.next
+**/release.properties
+**/dependency-reduced-pom.xml
+**/buildNumber.properties
+**/.mvn/timing.properties
+
+# Maven wrapper JAR
+!**/.mvn/wrapper/maven-wrapper.jar
+
+# Eclipse m2e 생성 파일
+**/.project
+**/.classpath
+
+### VS Code ###
+# VS Code 설정 파일
+**/.vscode/*
+!**/.vscode/settings.json
+!**/.vscode/tasks.json
+!**/.vscode/launch.json
+!**/.vscode/extensions.json
+!**/.vscode/*.code-snippets
+
+# VS Code 히스토리
+**/.history/
+**/.ionide/
+**/*.vsix
+
+### Windows ###
+# 윈도우 썸네일 캐시
+**/Thumbs.db
+**/Thumbs.db:encryptable
+**/ehthumbs.db
+**/ehthumbs_vista.db
+
+# 윈도우 덤프 파일
+**/*.stackdump
+
+# 윈도우 폴더 설정 파일
+**/[Dd]esktop.ini
+
+# 윈도우 휴지통
+**/$RECYCLE.BIN/
+
+# 윈도우 인스톨러 파일
+**/*.cab
+**/*.msi
+**/*.msix
+**/*.msm
+**/*.msp
+
+# 윈도우 바로가기
+**/*.lnk
